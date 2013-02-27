@@ -10,15 +10,35 @@
 
 @interface SecondViewController ()
 
+
 @end
 
 @implementation SecondViewController
+@synthesize myMapView;
+
+
 
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+    self.myMapView = [[MKMapView alloc]
+                      initWithFrame:self.view.bounds];
+    [self.view addSubview:self.myMapView];
+    [self mapcenter];
 }
+
+- (void)mapcenter
+{
+    myMapView.mapType = MKMapTypeStandard;
+    MKCoordinateRegion myRegion;
+    myRegion.center.latitude = 56.5;
+    myRegion.center.longitude = 11.4;
+    myRegion.span.latitudeDelta = 3.0  ;
+    myRegion.span.longitudeDelta = 1.0;
+    
+    [self.myMapView setRegion:myRegion animated:YES];
+}
+
 
 - (void)didReceiveMemoryWarning
 {

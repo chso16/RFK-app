@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AA17FA6E16DCE1E2004B2675 /* settings.png in Resources */ = {isa = PBXBuildFile; fileRef = AA17FA6D16DCE1E2004B2675 /* settings.png */; };
+		AA17FA7716DCF6FB004B2675 /* settings.m in Sources */ = {isa = PBXBuildFile; fileRef = AA17FA7616DCF6FB004B2675 /* settings.m */; };
 		AA698C1716D39A1200012D4D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA698C1616D39A1200012D4D /* UIKit.framework */; };
 		AA698C1916D39A1200012D4D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA698C1816D39A1200012D4D /* Foundation.framework */; };
 		AA698C1B16D39A1200012D4D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA698C1A16D39A1200012D4D /* CoreGraphics.framework */; };
@@ -21,7 +23,6 @@
 		AA698C3616D39A1200012D4D /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA698C3516D39A1200012D4D /* FirstViewController.m */; };
 		AA698C3816D39A1200012D4D /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = AA698C3716D39A1200012D4D /* first.png */; };
 		AA698C3A16D39A1200012D4D /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AA698C3916D39A1200012D4D /* first@2x.png */; };
-		AA698C3D16D39A1200012D4D /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA698C3C16D39A1200012D4D /* SecondViewController.m */; };
 		AA698C3F16D39A1200012D4D /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = AA698C3E16D39A1200012D4D /* second.png */; };
 		AA698C4116D39A1200012D4D /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AA698C4016D39A1200012D4D /* second@2x.png */; };
 		AA698C4916D39A1200012D4D /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA698C4816D39A1200012D4D /* SenTestingKit.framework */; };
@@ -29,6 +30,27 @@
 		AA698C4B16D39A1200012D4D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA698C1816D39A1200012D4D /* Foundation.framework */; };
 		AA698C5316D39A1200012D4D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AA698C5116D39A1200012D4D /* InfoPlist.strings */; };
 		AA698C5616D39A1200012D4D /* RFKTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AA698C5516D39A1200012D4D /* RFKTests.m */; };
+		AA698C6916D3A9BF00012D4D /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA698C6816D3A9BF00012D4D /* ThirdViewController.m */; };
+		AA8EECD116D5137700021BA4 /* itsoundskinky.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AA8EECD016D5137700021BA4 /* itsoundskinky.jpg */; };
+		AA92A87D16DB97DA009D388F /* map.png in Resources */ = {isa = PBXBuildFile; fileRef = AA92A87C16DB97DA009D388F /* map.png */; };
+		AA92A87F16DB9832009D388F /* www.png in Resources */ = {isa = PBXBuildFile; fileRef = AA92A87E16DB9832009D388F /* www.png */; };
+		AA92A88116DB9899009D388F /* www1.png in Resources */ = {isa = PBXBuildFile; fileRef = AA92A88016DB9899009D388F /* www1.png */; };
+		AA92A88316DB990A009D388F /* a.png in Resources */ = {isa = PBXBuildFile; fileRef = AA92A88216DB990A009D388F /* a.png */; };
+		AA92A88516DB9BD5009D388F /* RFK.png in Resources */ = {isa = PBXBuildFile; fileRef = AA92A88416DB9BD5009D388F /* RFK.png */; };
+		AADA34B816D612960097D813 /* sky.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AADA34B716D612960097D813 /* sky.jpg */; };
+		AAE3B3FC16DB544B002E79E2 /* airfields.rdb in Resources */ = {isa = PBXBuildFile; fileRef = AAE3B3FB16DB544B002E79E2 /* airfields.rdb */; };
+		AAE3B3FD16DB5454002E79E2 /* airfields.rdb in Resources */ = {isa = PBXBuildFile; fileRef = AAE3B3FB16DB544B002E79E2 /* airfields.rdb */; };
+		AAE3B40516DB7EF4002E79E2 /* Airfield.m in Sources */ = {isa = PBXBuildFile; fileRef = AAE3B40016DB7EF4002E79E2 /* Airfield.m */; };
+		AAE3B40616DB7EF4002E79E2 /* DBDataController.m in Sources */ = {isa = PBXBuildFile; fileRef = AAE3B40416DB7EF4002E79E2 /* DBDataController.m */; };
+		AAE3B40916DB7FA3002E79E2 /* rfkViewControllerMap.m in Sources */ = {isa = PBXBuildFile; fileRef = AAE3B40816DB7FA3002E79E2 /* rfkViewControllerMap.m */; };
+		AAE3B40A16DB8714002E79E2 /* rfkViewControllerMap.m in Sources */ = {isa = PBXBuildFile; fileRef = AAE3B40816DB7FA3002E79E2 /* rfkViewControllerMap.m */; };
+		AAE3B40B16DB871D002E79E2 /* Airfield.m in Sources */ = {isa = PBXBuildFile; fileRef = AAE3B40016DB7EF4002E79E2 /* Airfield.m */; };
+		AAE3B40C16DB8724002E79E2 /* DBDataController.m in Sources */ = {isa = PBXBuildFile; fileRef = AAE3B40416DB7EF4002E79E2 /* DBDataController.m */; };
+		AAE3B41016DB8C2B002E79E2 /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = AAE3B40F16DB8C2B002E79E2 /* libsqlite3.0.dylib */; };
+		AAE3B41316DB9163002E79E2 /* cloud.png in Resources */ = {isa = PBXBuildFile; fileRef = AAE3B41216DB9163002E79E2 /* cloud.png */; };
+		AAE3B42716DB96C1002E79E2 /* fdg.png in Resources */ = {isa = PBXBuildFile; fileRef = AAE3B42616DB96C1002E79E2 /* fdg.png */; };
+		AAE3B42916DB973B002E79E2 /* gfd.png in Resources */ = {isa = PBXBuildFile; fileRef = AAE3B42816DB973B002E79E2 /* gfd.png */; };
+		AAF9FE1216D4B82B00EDC16D /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAF9FE1116D4B82B00EDC16D /* MapKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +64,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AA17FA6D16DCE1E2004B2675 /* settings.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = settings.png; path = ../../../../../Downloads/settings.png; sourceTree = "<group>"; };
+		AA17FA7516DCF6FB004B2675 /* settings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = settings.h; sourceTree = "<group>"; };
+		AA17FA7616DCF6FB004B2675 /* settings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = settings.m; sourceTree = "<group>"; };
 		AA698C1316D39A1200012D4D /* RFK.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RFK.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA698C1616D39A1200012D4D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		AA698C1816D39A1200012D4D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -61,8 +86,6 @@
 		AA698C3516D39A1200012D4D /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
 		AA698C3716D39A1200012D4D /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
 		AA698C3916D39A1200012D4D /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
-		AA698C3B16D39A1200012D4D /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
-		AA698C3C16D39A1200012D4D /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		AA698C3E16D39A1200012D4D /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
 		AA698C4016D39A1200012D4D /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
 		AA698C4716D39A1200012D4D /* RFKTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RFKTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -71,6 +94,28 @@
 		AA698C5216D39A1200012D4D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		AA698C5416D39A1200012D4D /* RFKTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RFKTests.h; sourceTree = "<group>"; };
 		AA698C5516D39A1200012D4D /* RFKTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RFKTests.m; sourceTree = "<group>"; };
+		AA698C6716D3A9BF00012D4D /* ThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
+		AA698C6816D3A9BF00012D4D /* ThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
+		AA8EECD016D5137700021BA4 /* itsoundskinky.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = itsoundskinky.jpg; sourceTree = "<group>"; };
+		AA92A87C16DB97DA009D388F /* map.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = map.png; path = ../../../../../Downloads/map.png; sourceTree = "<group>"; };
+		AA92A87E16DB9832009D388F /* www.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = www.png; path = ../../../../../Downloads/www.png; sourceTree = "<group>"; };
+		AA92A88016DB9899009D388F /* www1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = www1.png; path = ../../../../../Downloads/www1.png; sourceTree = "<group>"; };
+		AA92A88216DB990A009D388F /* a.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = a.png; path = ../../../../../Downloads/a.png; sourceTree = "<group>"; };
+		AA92A88416DB9BD5009D388F /* RFK.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RFK.png; sourceTree = "<group>"; };
+		AADA34B716D612960097D813 /* sky.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sky.jpg; sourceTree = "<group>"; };
+		AAE3B3FB16DB544B002E79E2 /* airfields.rdb */ = {isa = PBXFileReference; lastKnownFileType = file; path = airfields.rdb; sourceTree = "<group>"; };
+		AAE3B3FF16DB7EF4002E79E2 /* Airfield.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Airfield.h; path = "../../../../../Downloads/CoEmarts2012-flyveklubIOS-master/RandersFlyveklub/Airfield.h"; sourceTree = "<group>"; };
+		AAE3B40016DB7EF4002E79E2 /* Airfield.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Airfield.m; path = "../../../../../Downloads/CoEmarts2012-flyveklubIOS-master/RandersFlyveklub/Airfield.m"; sourceTree = "<group>"; };
+		AAE3B40116DB7EF4002E79E2 /* DataControllerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DataControllerDelegate.h; path = "../../../../../Downloads/CoEmarts2012-flyveklubIOS-master/RandersFlyveklub/DataControllerDelegate.h"; sourceTree = "<group>"; };
+		AAE3B40316DB7EF4002E79E2 /* DBDataController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DBDataController.h; path = "../../../../../Downloads/CoEmarts2012-flyveklubIOS-master/RandersFlyveklub/DBDataController.h"; sourceTree = "<group>"; };
+		AAE3B40416DB7EF4002E79E2 /* DBDataController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DBDataController.m; path = "../../../../../Downloads/CoEmarts2012-flyveklubIOS-master/RandersFlyveklub/DBDataController.m"; sourceTree = "<group>"; };
+		AAE3B40716DB7FA3002E79E2 /* rfkViewControllerMap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = rfkViewControllerMap.h; path = "../../../../../Downloads/CoEmarts2012-flyveklubIOS-master/RandersFlyveklub/rfkViewControllerMap.h"; sourceTree = "<group>"; };
+		AAE3B40816DB7FA3002E79E2 /* rfkViewControllerMap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = rfkViewControllerMap.m; path = "../../../../../Downloads/CoEmarts2012-flyveklubIOS-master/RandersFlyveklub/rfkViewControllerMap.m"; sourceTree = "<group>"; };
+		AAE3B40F16DB8C2B002E79E2 /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = usr/lib/libsqlite3.0.dylib; sourceTree = SDKROOT; };
+		AAE3B41216DB9163002E79E2 /* cloud.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cloud.png; sourceTree = "<group>"; };
+		AAE3B42616DB96C1002E79E2 /* fdg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = fdg.png; path = ../../../../../Downloads/fdg.png; sourceTree = "<group>"; };
+		AAE3B42816DB973B002E79E2 /* gfd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = gfd.png; path = ../../../../../Downloads/gfd.png; sourceTree = "<group>"; };
+		AAF9FE1116D4B82B00EDC16D /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +123,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AAE3B41016DB8C2B002E79E2 /* libsqlite3.0.dylib in Frameworks */,
+				AAF9FE1216D4B82B00EDC16D /* MapKit.framework in Frameworks */,
 				AA698C1716D39A1200012D4D /* UIKit.framework in Frameworks */,
 				AA698C1916D39A1200012D4D /* Foundation.framework in Frameworks */,
 				AA698C1B16D39A1200012D4D /* CoreGraphics.framework in Frameworks */,
@@ -97,9 +144,38 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AA17FA6F16DCE214004B2675 /* Links */ = {
+			isa = PBXGroup;
+			children = (
+				AA698C6716D3A9BF00012D4D /* ThirdViewController.h */,
+				AA698C6816D3A9BF00012D4D /* ThirdViewController.m */,
+			);
+			name = Links;
+			sourceTree = "<group>";
+		};
+		AA17FA7016DCE22D004B2675 /* Vejrstation */ = {
+			isa = PBXGroup;
+			children = (
+				AA698C3416D39A1200012D4D /* FirstViewController.h */,
+				AA698C3516D39A1200012D4D /* FirstViewController.m */,
+			);
+			name = Vejrstation;
+			sourceTree = "<group>";
+		};
+		AA17FA7116DCE250004B2675 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				AA17FA7516DCF6FB004B2675 /* settings.h */,
+				AA17FA7616DCF6FB004B2675 /* settings.m */,
+			);
+			name = Settings;
+			sourceTree = "<group>";
+		};
 		AA698C0A16D39A1200012D4D = {
 			isa = PBXGroup;
 			children = (
+				AA92A88416DB9BD5009D388F /* RFK.png */,
+				AAE3B40F16DB8C2B002E79E2 /* libsqlite3.0.dylib */,
 				AA698C1C16D39A1200012D4D /* RFK */,
 				AA698C4E16D39A1200012D4D /* RFKTests */,
 				AA698C1516D39A1200012D4D /* Frameworks */,
@@ -119,6 +195,7 @@
 		AA698C1516D39A1200012D4D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				AAF9FE1116D4B82B00EDC16D /* MapKit.framework */,
 				AA698C1616D39A1200012D4D /* UIKit.framework */,
 				AA698C1816D39A1200012D4D /* Foundation.framework */,
 				AA698C1A16D39A1200012D4D /* CoreGraphics.framework */,
@@ -130,18 +207,14 @@
 		AA698C1C16D39A1200012D4D /* RFK */ = {
 			isa = PBXGroup;
 			children = (
+				AA17FA7116DCE250004B2675 /* Settings */,
+				AA17FA6F16DCE214004B2675 /* Links */,
 				AA698C2516D39A1200012D4D /* AppDelegate.h */,
 				AA698C2616D39A1200012D4D /* AppDelegate.m */,
 				AA698C2E16D39A1200012D4D /* MainStoryboard_iPhone.storyboard */,
 				AA698C3116D39A1200012D4D /* MainStoryboard_iPad.storyboard */,
-				AA698C3416D39A1200012D4D /* FirstViewController.h */,
-				AA698C3516D39A1200012D4D /* FirstViewController.m */,
-				AA698C3716D39A1200012D4D /* first.png */,
-				AA698C3916D39A1200012D4D /* first@2x.png */,
-				AA698C3B16D39A1200012D4D /* SecondViewController.h */,
-				AA698C3C16D39A1200012D4D /* SecondViewController.m */,
-				AA698C3E16D39A1200012D4D /* second.png */,
-				AA698C4016D39A1200012D4D /* second@2x.png */,
+				AA17FA7016DCE22D004B2675 /* Vejrstation */,
+				AAE3B3FE16DB7E90002E79E2 /* MAP */,
 				AA698C1D16D39A1200012D4D /* Supporting Files */,
 			);
 			path = RFK;
@@ -150,6 +223,21 @@
 		AA698C1D16D39A1200012D4D /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				AA17FA6D16DCE1E2004B2675 /* settings.png */,
+				AA92A88216DB990A009D388F /* a.png */,
+				AA92A88016DB9899009D388F /* www1.png */,
+				AA92A87E16DB9832009D388F /* www.png */,
+				AAE3B41216DB9163002E79E2 /* cloud.png */,
+				AA92A87C16DB97DA009D388F /* map.png */,
+				AAE3B42616DB96C1002E79E2 /* fdg.png */,
+				AA698C3716D39A1200012D4D /* first.png */,
+				AAE3B42816DB973B002E79E2 /* gfd.png */,
+				AA698C3916D39A1200012D4D /* first@2x.png */,
+				AA698C3E16D39A1200012D4D /* second.png */,
+				AA698C4016D39A1200012D4D /* second@2x.png */,
+				AAE3B3FB16DB544B002E79E2 /* airfields.rdb */,
+				AADA34B716D612960097D813 /* sky.jpg */,
+				AA8EECD016D5137700021BA4 /* itsoundskinky.jpg */,
 				AA698C1E16D39A1200012D4D /* RFK-Info.plist */,
 				AA698C1F16D39A1200012D4D /* InfoPlist.strings */,
 				AA698C2216D39A1200012D4D /* main.m */,
@@ -178,6 +266,20 @@
 				AA698C5116D39A1200012D4D /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AAE3B3FE16DB7E90002E79E2 /* MAP */ = {
+			isa = PBXGroup;
+			children = (
+				AAE3B3FF16DB7EF4002E79E2 /* Airfield.h */,
+				AAE3B40016DB7EF4002E79E2 /* Airfield.m */,
+				AAE3B40116DB7EF4002E79E2 /* DataControllerDelegate.h */,
+				AAE3B40716DB7FA3002E79E2 /* rfkViewControllerMap.h */,
+				AAE3B40816DB7FA3002E79E2 /* rfkViewControllerMap.m */,
+				AAE3B40316DB7EF4002E79E2 /* DBDataController.h */,
+				AAE3B40416DB7EF4002E79E2 /* DBDataController.m */,
+			);
+			name = MAP;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -251,6 +353,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AAE3B3FD16DB5454002E79E2 /* airfields.rdb in Resources */,
 				AA698C2116D39A1200012D4D /* InfoPlist.strings in Resources */,
 				AA698C2916D39A1200012D4D /* Default.png in Resources */,
 				AA698C2B16D39A1200012D4D /* Default@2x.png in Resources */,
@@ -261,6 +364,17 @@
 				AA698C3A16D39A1200012D4D /* first@2x.png in Resources */,
 				AA698C3F16D39A1200012D4D /* second.png in Resources */,
 				AA698C4116D39A1200012D4D /* second@2x.png in Resources */,
+				AA8EECD116D5137700021BA4 /* itsoundskinky.jpg in Resources */,
+				AADA34B816D612960097D813 /* sky.jpg in Resources */,
+				AAE3B41316DB9163002E79E2 /* cloud.png in Resources */,
+				AAE3B42716DB96C1002E79E2 /* fdg.png in Resources */,
+				AAE3B42916DB973B002E79E2 /* gfd.png in Resources */,
+				AA92A87D16DB97DA009D388F /* map.png in Resources */,
+				AA92A87F16DB9832009D388F /* www.png in Resources */,
+				AA92A88116DB9899009D388F /* www1.png in Resources */,
+				AA92A88316DB990A009D388F /* a.png in Resources */,
+				AA92A88516DB9BD5009D388F /* RFK.png in Resources */,
+				AA17FA6E16DCE1E2004B2675 /* settings.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,6 +383,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AA698C5316D39A1200012D4D /* InfoPlist.strings in Resources */,
+				AAE3B3FC16DB544B002E79E2 /* airfields.rdb in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -295,10 +410,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AAE3B40C16DB8724002E79E2 /* DBDataController.m in Sources */,
+				AAE3B40B16DB871D002E79E2 /* Airfield.m in Sources */,
+				AAE3B40A16DB8714002E79E2 /* rfkViewControllerMap.m in Sources */,
 				AA698C2316D39A1200012D4D /* main.m in Sources */,
 				AA698C2716D39A1200012D4D /* AppDelegate.m in Sources */,
 				AA698C3616D39A1200012D4D /* FirstViewController.m in Sources */,
-				AA698C3D16D39A1200012D4D /* SecondViewController.m in Sources */,
+				AA698C6916D3A9BF00012D4D /* ThirdViewController.m in Sources */,
+				AA17FA7716DCF6FB004B2675 /* settings.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -307,6 +426,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				AA698C5616D39A1200012D4D /* RFKTests.m in Sources */,
+				AAE3B40516DB7EF4002E79E2 /* Airfield.m in Sources */,
+				AAE3B40616DB7EF4002E79E2 /* DBDataController.m in Sources */,
+				AAE3B40916DB7FA3002E79E2 /* rfkViewControllerMap.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -420,7 +542,12 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "RFK/RFK-Prefix.pch";
 				INFOPLIST_FILE = "RFK/RFK-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/RFK\"",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -431,7 +558,12 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "RFK/RFK-Prefix.pch";
 				INFOPLIST_FILE = "RFK/RFK-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/RFK\"",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -489,6 +621,7 @@
 				AA698C5B16D39A1200012D4D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AA698C5C16D39A1200012D4D /* Build configuration list for PBXNativeTarget "RFKTests" */ = {
 			isa = XCConfigurationList;
@@ -497,6 +630,7 @@
 				AA698C5E16D39A1200012D4D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
