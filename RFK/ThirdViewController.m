@@ -10,17 +10,14 @@
 
 @interface ThirdViewController ()
 
-
 @end
 
 @implementation ThirdViewController
 @synthesize webView;
 @synthesize segcontrol;
 
-
 - (void)viewDidLoad
 {
-    
     NSString *urlAddress = @"http://mobil.dmi.dk";
     NSURL *url = [NSURL URLWithString:urlAddress];
     
@@ -30,18 +27,13 @@
 
     [super viewDidLoad];
 	
-    }
+}
 
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
-
-
-
-
-
 
 - (IBAction)Segcontrol:(id)sender
 {
@@ -58,15 +50,15 @@
 
     else if (segcontrol.selectedSegmentIndex == 1)
     
-        {
-            NSString *urlAddress = @"http://www.airfields.dk";
-            NSURL *url = [NSURL URLWithString:urlAddress];
+    {
+        NSString *urlAddress = @"http://www.airfields.dk";
+        NSURL *url = [NSURL URLWithString:urlAddress];
             
-            NSURLRequest *requestObj = [NSURLRequest requestWithURL:url];
+        NSURLRequest *requestObj = [NSURLRequest requestWithURL:url];
             
-            [webView loadRequest:requestObj];
+        [webView loadRequest:requestObj];
             
-        }
+    }
 
     
     else if (segcontrol.selectedSegmentIndex == 2)

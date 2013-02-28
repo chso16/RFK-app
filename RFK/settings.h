@@ -9,6 +9,10 @@
 #import <UIKit/UIKit.h>
 
 @interface settings : UIViewController
+@property (weak, nonatomic) IBOutlet UISwitch *state;
+@property (weak, nonatomic) IBOutlet UILabel *statetest;
+@property (weak, nonatomic) IBOutlet UISwitch *State1;
 - (IBAction)imageswitch:(id)sender;
+- (IBAction)ImgSwitch1:(id)sender;
 
 @end

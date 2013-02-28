@@ -18,9 +18,6 @@
 @synthesize labeHPA;
 @synthesize img;
 
-
-bool colorimage = YES;
-
 NSURLConnection *theConnection;
 NSMutableData *receivedData;
 NSString *rawData;
@@ -31,7 +28,6 @@ NSTimer *autoTimer;
     [super viewDidLoad];
     [self getWeather];
     [self setTimer];
-    [img setImage:[UIImage imageNamed:@"sky.jpg"]];
 }
 
 -(void) timerRun
@@ -41,19 +37,20 @@ NSTimer *autoTimer;
     int seconds = secondsCount - (minuts * 60);
     NSString *timerOutput = [NSString stringWithFormat:@"%2d", seconds];
     countdownLabel.text = timerOutput;
-    if (secondsCount == 1) {
+    if (secondsCount == 1)
+    {
         secondsCount = 11;
     }
 }
--(void) setTimer  {
+-(void) setTimer
+{
     secondsCount = 11;
-    
 }
+
 
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
 }
 
 
@@ -77,13 +74,14 @@ NSTimer *autoTimer;
 
 -(void)connection:(NSURLConnection *)connection didFailWithError:(NSError *)error
 {
-    //myTextField.textColor = [UIColor redColor];
+    
 }
 
 -(void)connectionDidFinishLoading:(NSURLConnection *)connection
 {
     if (theConnection == nil)
     {
+        
     }
     else
     {
@@ -113,8 +111,6 @@ NSTimer *autoTimer;
     }
 }
 
-
-
 - (void)viewDidUnload
 {
     [self setLabelwindspeed:nil];
@@ -127,9 +123,6 @@ NSTimer *autoTimer;
     
     [countdownTimer invalidate];
     countdownTimer = nil;
-
-    // Release any retained subviews of the main view.
-    // e.g. self.myOutlet = nil;
 }
 
 - (void)viewWillAppear:(BOOL)animated
@@ -141,21 +134,27 @@ NSTimer *autoTimer;
                                                userInfo:nil
                                                 repeats:YES];
     
-    
     countdownTimer = [NSTimer scheduledTimerWithTimeInterval:(1) target:(self) selector:@selector(timerRun) userInfo:(Nil) repeats:(YES)];
-
+    
+    NSUserDefaults* defaults = [NSUserDefaults standardUserDefaults];
+    if([defaults boolForKey:@"sky"])
+    {
+        [img setImage:[UIImage imageNamed:@"sky.jpg"]];
+    }
+    else
+    {
+        [img setImage:[UIImage imageNamed:@""]];
+    }
 }
 
 - (void)viewDidAppear:(BOOL)animated
 {
     [super viewDidAppear:animated];
-    
 }
 
 - (void)viewWillDisappear:(BOOL)animated
 {
     [super viewWillDisappear:animated];
-  
 }
 
 - (void)viewDidDisappear:(BOOL)animated
@@ -167,31 +166,11 @@ NSTimer *autoTimer;
     [countdownTimer invalidate];
     countdownTimer = nil;
     secondsCount = 11;
-
 }
 
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
 {
-    // Return YES for supported orientations
     return YES;
 }
 
-
-
-- (IBAction)imageChange:(id)sender
-{
-    if(colorimage)
-    {
-        [img setImage:[UIImage imageNamed:@""]];
-        colorimage = NO;
-    }
-    else
-    {
-        [img setImage:[UIImage imageNamed:@"sky.jpg"]];
-        colorimage = YES;
-    }
-
-       
-
-  }
 @end

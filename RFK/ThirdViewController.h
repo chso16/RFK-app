@@ -13,13 +13,4 @@
 @property (weak, nonatomic) IBOutlet UISegmentedControl *segcontrol;
 - (IBAction)Segcontrol:(id)sender;
 
-
-
-
-
-
-
-
-
-
 @end
